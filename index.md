@@ -56,14 +56,14 @@ One major point of uncertainty for this project is how our HPE model will interp
 Provide several input images to our program to detect what exercises the input images are depicting. This experiment is crucial for our next 3 experiments. We will feed different variations of the 3 exercises with good and bad form to make sure we can detect them accurately.
 - Uncertainties: If an exercise is performed egregiously poorly (with significant deviation from proper form), will our program still be able to accurately detect it?
 
-## Deadlift:
+### Deadlift:
 - Good form: Attempt to detect features such as vertical arms, straight back.
 - Bad form: Attempt to detect features such as curved back, diagonal or bent arms.
 
-## Squat:
+### Squat:
 - Good Form: Attempt to detect features such as straight back, butt behind feet, hips parallel to ground.
 - Bad Form: Attempt to detect features such as curved back, hips non-parallel to ground (signifies incomplete rep).
 
-## Bench Press:
+### Bench Press:
 - Good Form: Attempt to detect tucked in elbows, slightly arched back, bar directly above chest
 - Bad Form: Attempt to detect flat back, flared out elbows.
