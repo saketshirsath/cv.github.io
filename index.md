@@ -1,6 +1,6 @@
 # Using Human Pose Detection to Identify and Give Feedback on Workout Form Project Proposal
 
-## Saket Shirsath, Parth Thakkar, Ben Wolfson
+### Saket Shirsath, Parth Thakkar, Ben Wolfson
 
 ## Problem Statement:
 
