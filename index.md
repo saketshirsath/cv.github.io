@@ -1,5 +1,6 @@
 ### Saket Shirsath, Parth Thakkar, Ben Wolfson
 
+
 ## Problem Statement:
 
 A common source of injury among weightlifters is incorrect form while performing exercises. The most popular strength exercises are the barbell bench press, squat, and deadlift. We seek to provide a system where a user can provide an input image/video of themselves performing one of these exercises, and the system would analyze the input and output recommendations on how to improve their form.
