@@ -15,7 +15,7 @@ The next step of our implementation is to analyze the exercise form in the input
 
 It might also prove useful to use a Hough Transform to find potential curves in the pose detection output, since keeping the spine rigid is mostly an indicator of good form. For example, when a person is performing a deadlift, bending the back is very bad. However, during a bench press, a slight arch is actually optimal. By finding these areas of breakdown, or lack thereof, we can provide the user with targeted advice on how to improve their form.
 
-TODO: Insert Image
+<img src="assets\OpenPose.jpg">
 
 ## Experiments and Results:
 
