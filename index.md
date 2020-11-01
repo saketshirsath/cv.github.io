@@ -35,7 +35,7 @@ To solve our issue with accurate exercise classification, we experimented with a
 ## Results
 
 We started with a single-layer CNN, altering input normalization resolution to see how it affected training and validation accuracy and loss. These preliminary results indicate decent validation accuracy (~70%) for 25x25 and 50x50 normalizations. The 100x100 and 150x150 normalizations are significantly more accurate at around 80%. These graphs indicate that our model is overfitting our training dataset, as is evident by the nearly 100% training accuracy. This is to be expected due to our extremely small dataset.
-| asdf |
+
 | ----- | ------------------------------------------------------ | ------------------------------------------------------- |
 | 25x25 | <img src="assets/cnn1/cnn1_25_acc.png" height="100px"> | <img src="assets/cnn1/cnn1_25_loss.png" height="100px"> |
 | 50x50 | <img src="assets/cnn1/cnn1_50_acc.png" height="100px"> | <img src="assets/cnn1/cnn1_50_loss.png" height="100px"> |
@@ -44,7 +44,6 @@ We started with a single-layer CNN, altering input normalization resolution to s
 
 The results for the three-layer CNN are worse than the single-layer design. Typically, more layers result in higher validation accuracy, but our dataset is so small and our model is so overfitted that we get the opposite effect, resulting in significantly less validation accuracy across the board.
 
-| asdf |
 | ----- | ------------------------------------------------------ | ------------------------------------------------------- |
 | 25x25 | <img src="assets/cnn2/cnn2_25_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_25_loss.png" height="100px"> |
 | 50x50 | <img src="assets/cnn2/cnn2_50_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_50_loss.png" height="100px"> |
@@ -53,7 +52,7 @@ The results for the three-layer CNN are worse than the single-layer design. Typi
 
 We also see a similar trend with our four-layer implementation.
 
-| asdf |
+
 | ----- | ------------------------------------------------------ | ------------------------------------------------------- |
 | 25x25 | <img src="assets/cnn3/cnn3_25_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_25_loss.png" height="100px"> |
 | 50x50 | <img src="assets/cnn3/cnn3_50_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_50_loss.png" height="100px"> |
