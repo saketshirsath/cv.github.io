@@ -39,25 +39,25 @@ We started with a single-layer CNN, altering input normalization resolution to s
 
 | 25x25 | 50x50 | 100x100 | 150x150 |
 | ----- | ----- | ------- | ------- |
-| <img src="assets/cnn1/cnn1_25_acc.png" height="100px"> | <img src="assets/cnn1/cnn1_50_acc.png" height="100px"> | <img src="assets/cnn1/cnn1_100_acc.png" height="100px"> | <img src="assets/cnn1/cnn1_150_acc.png" height="100px"> |
-| <img src="assets/cnn1/cnn1_25_loss.png" height="100px"> |  <img src="assets/cnn1/cnn1_50_loss.png" height="100px"> | <img src="assets/cnn1/cnn1_100_loss.png" height="100px"> | <img src="assets/cnn1/cnn1_150_loss.png" height="100px"> |
+| <img src="assets/cnn1/cnn1_25_acc.png" height="150px"> | <img src="assets/cnn1/cnn1_50_acc.png" height="150px"> | <img src="assets/cnn1/cnn1_100_acc.png" height="150px"> | <img src="assets/cnn1/cnn1_150_acc.png" height="150px"> |
+| <img src="assets/cnn1/cnn1_25_loss.png" height="150px"> |  <img src="assets/cnn1/cnn1_50_loss.png" height="150px"> | <img src="assets/cnn1/cnn1_100_loss.png" height="150px"> | <img src="assets/cnn1/cnn1_150_loss.png" height="150px"> |
 
 The results for the three-layer CNN are worse than the single-layer design. Typically, more layers result in higher validation accuracy, but our dataset is so small and our model is so overfitted that we get the opposite effect, resulting in significantly less validation accuracy across the board.
 
-| ----- | ------------------------------------------------------ | ------------------------------------------------------- |
-| 25x25 | <img src="assets/cnn2/cnn2_25_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_25_loss.png" height="100px"> |
-| 50x50 | <img src="assets/cnn2/cnn2_50_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_50_loss.png" height="100px"> |
-| 100x100 | <img src="assets/cnn2/cnn2_100_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_100_loss.png" height="100px"> |
-| 150x150 | <img src="assets/cnn2/cnn2_150_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_150_loss.png" height="100px"> |
+| 25x25 | 50x50 | 100x100 | 150x150 |
+| ----- | ----- | ------- | ------- |
+| <img src="assets/cnn2/cnn2_25_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_50_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_100_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_150_acc.png" height="100px"> |
+| <img src="assets/cnn2/cnn2_25_loss.png" height="100px"> |  <img src="assets/cnn2/cnn2_50_loss.png" height="100px"> | <img src="assets/cnn2/cnn2_100_loss.png" height="100px"> | <img src="assets/cnn2/cnn2_150_loss.png" height="100px"> |
+
 
 We also see a similar trend with our four-layer implementation.
 
 
-| ----- | ------------------------------------------------------ | ------------------------------------------------------- |
-| 25x25 | <img src="assets/cnn3/cnn3_25_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_25_loss.png" height="100px"> |
-| 50x50 | <img src="assets/cnn3/cnn3_50_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_50_loss.png" height="100px"> |
-| 100x100 | <img src="assets/cnn3/cnn3_100_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_100_loss.png" height="100px"> |
-| 150x150 | <img src="assets/cnn3/cnn3_150_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_150_loss.png" height="100px"> |
+| 25x25 | 50x50 | 100x100 | 150x150 |
+| ----- | ----- | ------- | ------- |
+| <img src="assets/cnn3/cnn3_25_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_50_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_100_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_150_acc.png" height="100px"> |
+| <img src="assets/cnn3/cnn3_25_loss.png" height="100px"> |  <img src="assets/cnn3/cnn3_50_loss.png" height="100px"> | <img src="assets/cnn3/cnn3_100_loss.png" height="100px"> | <img src="assets/cnn3/cnn3_150_loss.png" height="100px"> |
+
 
 Next Steps
 Our current dataset is severely limiting the performance of our CNN. There are two ways to expand it: (1) data augmentation and (2) just collecting more images. We will experiment with both of these for the final implementation to get our validation accuracy closer to 100%. It may be possible to improve accuracy by running our dataset images with their associated HPE outputs.
