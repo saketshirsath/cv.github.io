@@ -46,8 +46,8 @@ The results for the three-layer CNN are worse than the single-layer design. Typi
 
 | 25x25 | 50x50 | 100x100 | 150x150 |
 | ----- | ----- | ------- | ------- |
-| <img src="assets/cnn2/cnn2_25_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_50_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_100_acc.png" height="100px"> | <img src="assets/cnn2/cnn2_150_acc.png" height="100px"> |
-| <img src="assets/cnn2/cnn2_25_loss.png" height="100px"> |  <img src="assets/cnn2/cnn2_50_loss.png" height="100px"> | <img src="assets/cnn2/cnn2_100_loss.png" height="100px"> | <img src="assets/cnn2/cnn2_150_loss.png" height="100px"> |
+| <img src="assets/cnn2/cnn2_25_acc.png" height="150px"> | <img src="assets/cnn2/cnn2_50_acc.png" height="150px"> | <img src="assets/cnn2/cnn2_100_acc.png" height="150px"> | <img src="assets/cnn2/cnn2_150_acc.png" height="150px"> |
+| <img src="assets/cnn2/cnn2_25_loss.png" height="150px"> |  <img src="assets/cnn2/cnn2_50_loss.png" height="150px"> | <img src="assets/cnn2/cnn2_100_loss.png" height="150px"> | <img src="assets/cnn2/cnn2_150_loss.png" height="150px"> |
 
 
 We also see a similar trend with our four-layer implementation.
@@ -55,8 +55,8 @@ We also see a similar trend with our four-layer implementation.
 
 | 25x25 | 50x50 | 100x100 | 150x150 |
 | ----- | ----- | ------- | ------- |
-| <img src="assets/cnn3/cnn3_25_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_50_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_100_acc.png" height="100px"> | <img src="assets/cnn3/cnn3_150_acc.png" height="100px"> |
-| <img src="assets/cnn3/cnn3_25_loss.png" height="100px"> |  <img src="assets/cnn3/cnn3_50_loss.png" height="100px"> | <img src="assets/cnn3/cnn3_100_loss.png" height="100px"> | <img src="assets/cnn3/cnn3_150_loss.png" height="100px"> |
+| <img src="assets/cnn3/cnn3_25_acc.png" height="150px"> | <img src="assets/cnn3/cnn3_50_acc.png" height="150px"> | <img src="assets/cnn3/cnn3_100_acc.png" height="150px"> | <img src="assets/cnn3/cnn3_150_acc.png" height="150px"> |
+| <img src="assets/cnn3/cnn3_25_loss.png" height="150px"> |  <img src="assets/cnn3/cnn3_50_loss.png" height="150px"> | <img src="assets/cnn3/cnn3_100_loss.png" height="150px"> | <img src="assets/cnn3/cnn3_150_loss.png" height="150px"> |
 
 
 Next Steps
