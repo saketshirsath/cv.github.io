@@ -59,7 +59,8 @@ We also see a similar trend with our four-layer implementation.
 | <img src="assets/cnn3/cnn3_25_loss.png" height="150px"> |  <img src="assets/cnn3/cnn3_50_loss.png" height="150px"> | <img src="assets/cnn3/cnn3_100_loss.png" height="150px"> | <img src="assets/cnn3/cnn3_150_loss.png" height="150px"> |
 
 
-Next Steps
+## Next Steps
+
 Our current dataset is severely limiting the performance of our CNN. There are two ways to expand it: (1) data augmentation and (2) just collecting more images. We will experiment with both of these for the final implementation to get our validation accuracy closer to 100%. It may be possible to improve accuracy by running our dataset images with their associated HPE outputs.
 
 Once we fix these points, the multi-layer designs should drastically outperform their single-layer counterpart. In fact, it might even be possible to reduce our normalized image sizes to improve training speeds. As shown earlier, a 50x50 image may be sufficient, as is evident by its close to 100% training accuracy.
