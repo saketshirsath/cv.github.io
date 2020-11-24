@@ -224,7 +224,7 @@ There is obviously work to do in terms of addressing the issues outlined above, 
  - [Link](http://smashlab.io/pdfs/gymcam.pdf)
  - Uses “frequency-based feature matching” under the assumption that exercises are more periodic than non-exercises - surveys footage for periodic movements and captures those
  - Incorporates joint movement trajectory and point clustering to determine type of exercise
-3. OpenCV: Deep Learning based Human Pose Estimation using OpenCV ( C++ / Python )
+3. OpenCV: Deep Learning based Human Pose Estimation using OpenCV (C++ / Python)
  - [GitHub](https://github.com/spmallick/learnopencv/tree/master/OpenPose)
  - [Tutorial](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
 4. [Human Pose Detection Dataset](http://human-pose.mpi-inf.mpg.de/)
