@@ -166,7 +166,7 @@ As you can see from the results, for most issues, we were able to detect an inst
 <img src="assets/squat_testing.png" height="500px">
 
 
-[LINK to expanded dataset (too large to be embedded or visualized)](https://www.dropbox.com/sh/7kgq12xv5evkoz0/AAB6EKO-6uU_nEeShxbkOluBa?dl=0)
+- [Link to expanded dataset (too large to be embedded or visualized)](https://www.dropbox.com/sh/7kgq12xv5evkoz0/AAB6EKO-6uU_nEeShxbkOluBa?dl=0)
 
 ### Part 2: Human Pose Estimation
 
