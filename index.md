@@ -124,7 +124,7 @@ We passed in 166 images of the squat being performed into the HPE model. As you 
 
 <img src="assets/deadlift_hpe.png" height="500px">
 
-We passed in 161 images of the squat being performed into the HPE model. As you can see, the overall point detection for a squat usually results in 15 points detected. There are a few outlier points where the number is significantly lower than 15. Similarly to the squat, these images are usually those with a significant amount of background equipment, or the image is not very clear. In addition, there are cases where a side angle view of a person doesn’t result in proper point detection.
+We passed in 161 images of the deadlift being performed into the HPE model. As you can see, the overall point detection for a squat usually results in 15 points detected. There are a few outlier points where the number is significantly lower than 15. Similarly to the squat, these images are usually those with a significant amount of background equipment, or the image is not very clear. In addition, there are cases where a side angle view of a person doesn’t result in proper point detection.
 
 ### Part 3: Form Feedback
 
@@ -222,8 +222,6 @@ There is obviously work to do in terms of addressing the issues outlined above, 
  - [Link 2](https://arxiv.org/pdf/2006.11718.pdf)
 2. GymCam: Detecting, Recognizing and Tracking Simultaneous Exercise in Unconstrained Scenes (2018)
  - [Link](http://smashlab.io/pdfs/gymcam.pdf)
- - Uses “frequency-based feature matching” under the assumption that exercises are more periodic than non-exercises - surveys footage for periodic movements and captures those
- - Incorporates joint movement trajectory and point clustering to determine type of exercise
 3. OpenCV: Deep Learning based Human Pose Estimation using OpenCV (C++ / Python)
  - [GitHub](https://github.com/spmallick/learnopencv/tree/master/OpenPose)
  - [Tutorial](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
