@@ -132,6 +132,7 @@ We focus on 2-3 issues for each of the “Big 3” exercises. We began looking t
 For each of these issues, we select 3 images that demonstrate a person performing the exercise with the particular issue. We test to make sure that in these 3 images the issue is detected, and we also test in 3 control images where there is no issue that no issue is detected.
 
 Squat Form Feedback:
+
 | Issue | Good Form Images Where Issue was Detected (out of 3) | Bad Form Images Where Issue was Detected (out of 3) |
 | ----- | ---------------------------------------------------- | --------------------------------------------------- |
 | Caved in knees | 1 | 3 |
@@ -139,12 +140,14 @@ Squat Form Feedback:
 | Neck and back curving | 0 | 2 |
 
 Deadlift Form Feedback:
+
 | Issue | Good Form Images Where Issue was Detected (out of 3) | Bad Form Images Where Issue was Detected (out of 3) |
 | ----- | ---------------------------------------------------- | --------------------------------------------------- |
 | Flared elbows | 1 | 2 |
 | Curved back | 0 | 2 |
 
 Bench Form Feedback:
+
 | Issue | Good Form Images Where Issue was Detected (out of 3) | Bad Form Images Where Issue was Detected (out of 3) |
 | ----- | ---------------------------------------------------- | --------------------------------------------------- |
 | Feet not on ground | 0 | 3 |
@@ -174,6 +177,7 @@ As you can see from the results, for most issues, we were able to detect an inst
 ### Part 3: Form Feedback
 
 Squat Form Feedback:
+
 | Image | Feedback | 
 | ----- | -------- |
 | <img src="assets/collapse_squat.png" height="150px"> | Your knees are too caved in. Use a lighter weight. Your shoulders are uneven. Stretch them out before lifting and consider lowering the weight. |
@@ -192,6 +196,7 @@ Deadlift Form Feedback:
 | <img src="assets/good_deadlift.png" height="150px"> | All good! Keep at it! |
 
 Bench Press Form Feedback:
+
 | Image | Feedback | 
 | ----- | -------- |
 | <img src="assets/bad_bench.png" height="150px"> | Keep your feet planted on the ground! It will help increase your power. |
