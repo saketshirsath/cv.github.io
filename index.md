@@ -220,8 +220,7 @@ There is obviously work to do in terms of addressing the issues outlined above, 
 1. Pose Trainer: Correcting Exercise Posture using Pose Estimation
  - [Link 1](https://arxiv.org/abs/2006.11718)
  - [Link 2](https://arxiv.org/pdf/2006.11718.pdf)
-2. GymCam: Detecting, Recognizing and Tracking Simultaneous Exercise in Unconstrained Scenes (2018)
- - [Link](http://smashlab.io/pdfs/gymcam.pdf)
+2. [GymCam: Detecting, Recognizing and Tracking Simultaneous Exercise in Unconstrained Scenes (2018)](http://smashlab.io/pdfs/gymcam.pdf)
 3. OpenCV: Deep Learning based Human Pose Estimation using OpenCV (C++ / Python)
  - [GitHub](https://github.com/spmallick/learnopencv/tree/master/OpenPose)
  - [Tutorial](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
