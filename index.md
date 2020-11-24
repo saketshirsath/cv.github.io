@@ -228,3 +228,5 @@ There is obviously work to do in terms of addressing the issues outlined above, 
  - [GitHub](https://github.com/spmallick/learnopencv/tree/master/OpenPose)
  - [Tutorial](https://www.learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
 4. [Human Pose Detection Dataset](http://human-pose.mpi-inf.mpg.de/)
+5. [Tensor Flow Image Classification](https://www.tensorflow.org/tutorials/images/classification)
+6. [Leeds Sports Pose Dataset](https://sam.johnson.io/research/lspet.html)
