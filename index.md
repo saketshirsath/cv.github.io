@@ -42,13 +42,15 @@ Based on the limited size of this initial dataset, we wanted to improve accuracy
 ### Part 2: Human Pose Estimation
 
 <img src="assets\OpenPose.jpg" height="500px">
+
 *Obtained from LearnOpenCV*
 
 Human pose estimation (HPE) is an extremely relevant resource for form analysis, since it allows us to extract important keypoint information from a user, e.g. major body parts (arms, legs, spine, etc.) and joints (shoulders, ankles, knees, etc.).
 
 Although there exist a few notable approaches to HPE, we will use the deep neural net method outlined by Cao et al. in Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields at Carnegie Mellon’s Perceptual Computing Lab. Cao et al. recommend two widely regarded keypoint models: MPII and Coco. We used MPII since it does a better job of segmenting the torso and spine, which proved useful in our analysis.
 
-<img src="hpe_architecture.png" height="500px">
+<img src="assets/hpe_architecture.png" height="500px">
+
 *Acquired from LearnOpenCV*
 
 Above is the architecture for the Human Pose Estimation model. Using this model, we are able to pass in an image and receive a layout of at most 15 major points on the body as they are displayed in the image. The points are returned if they are detected above a certain thresholded confidence level. 
@@ -59,7 +61,7 @@ Our main approach for this part was concerned more with what type of images we w
 
 At this stage, we are prepared to treat **Part 1: Image Classification** and **Part 2: Human Pose Estimation** as black boxes. Now that we have classified the exercise and have valid human pose data for the image, it is time to analyze the position of these points in relation to each other to determine feedback to give to the user. To give a better example of what we mean by the body points in relation to each other: consider the following image with its body points laid on top of the image.
 
-<img src="collapse_squat.png" height="500px">
+<img src="assets/collapse_squat.png" height="500px">
 
 If you look at this image, you can see that the man’s knees are collapsing inwards as he squats. This issue can lead to snapped tendons or even knee replacements. However, it is relatively easy to detect if you consider the distance between the knees versus the distance between the ankles. The former is significantly smaller than the latter which allows us to provide feedback to the user. We take a similar approach for common issues known with the Big 3 exercises in order to find issues with a user’s input.
 
@@ -108,19 +110,19 @@ The MPII Human Pose Dataset evaluates 15 points on the human body based on a thr
 
 #### Bench Press HPE:
 
-<img src="bench_hpe.png" height="500px">
+<img src="assets/bench_hpe.png" height="500px">
 
 We passed in 121 images of the bench press being performed into the HPE model. Compared to the squat and the deadlift, you can see that the overall point detection for the bench press is significantly poorer judging on the number of images that resulted in less than 15 points detected. We suspect this is due to the fact that the HPE model was mainly trained on standing bodies. In a bench press, a person is lying down, thus making it difficult for exact points to be detected.
 
 #### Squat HPE:
 
-<img src="squat_hpe.png" height="500px">
+<img src="assets/squat_hpe.png" height="500px">
 
 We passed in 166 images of the squat being performed into the HPE model. As you can see, the overall point detection for a squat usually results in 15 points detected. There are a few outlier points where the number is significantly lower than 15. These images are usually those with a significant amount of background equipment, or the image is not very clear.
 
 #### Deadlift HPE:
 
-<img src="deadlift_hpe.png" height="500px">
+<img src="assets/deadlift_hpe.png" height="500px">
 
 We passed in 161 images of the squat being performed into the HPE model. As you can see, the overall point detection for a squat usually results in 15 points detected. There are a few outlier points where the number is significantly lower than 15. Similarly to the squat, these images are usually those with a significant amount of background equipment, or the image is not very clear. In addition, there are cases where a side angle view of a person doesn’t result in proper point detection.
 
